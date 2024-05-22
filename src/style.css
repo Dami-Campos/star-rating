@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
+.body {
+  background: #E6E9FB;
+  max-width: 100%;
+  height: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first_card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 850px;
+  width: 800px;
+  max-height: 394px;
+  box-shadow: 10px 10px 4px 0 white;
+  border-radius: 10px;
+}
+
+.header {
+  width: 540px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.head_header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Merriweather", serif;
+  color: #0F172A;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.card{
+  background: url(star-rating-component/design/Frame.png)
+}
+
+.card:hover {
+  opacity: 0.5; /* Ajusta el nivel de opacidad según tus preferencias */
+}
+
+.footer{
+  margin-bottom: 70px;
+  text-align: center;
+  width: 647px;
+}
+
+.footer_head{
+  font-family: "Poppins", sans-serif;
+  color: #374151;
+  font-weight: 400;
+  size: 18px;
+  line-height: 27px;
+}
+
+
+
